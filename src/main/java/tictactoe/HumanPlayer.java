@@ -13,6 +13,7 @@ public class HumanPlayer extends Player {
 
     @Override
     public int[] chooseField() {
+        //String array added in order to test and simulate user input from Scanner in JUnit
         String[] coordinates;
         int[] moveCoordinates = new int[2];
         Scanner scanner = new Scanner(System.in);
